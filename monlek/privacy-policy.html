@@ -12,11 +12,6 @@
     font: 16px/1.65 -apple-system, "SF Pro Text", "Sukhumvit Set", "Thonburi", system-ui, sans-serif;
     color: #1a1530; background: #faf7ff; max-width: 760px; margin-inline: auto;
   }
-  @media (prefers-color-scheme: dark) {
-    body { color: #ece9f5; background: #120f1e; }
-    a { color: #f3d38a; }
-    .card { background: #1b1730; border-color: #2c2647; }
-  }
   h1 { font-size: 1.9rem; margin: 0 0 .25rem; letter-spacing: -.02em; }
   h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
   .brand { display:inline-block; font-weight:700;
@@ -27,6 +22,12 @@
   hr { border:none; border-top:1px solid #0001; margin:2.5rem 0; }
   ul { padding-left:1.2rem; } li { margin:.3rem 0; }
   .lang { opacity:.55; font-size:.85rem; text-transform:uppercase; letter-spacing:.08em; margin-top:2.5rem; }
+  /* ต้องอยู่ท้ายสุด — ให้ .card ในนี้ชนะกฎ .card สีขาวด้านบนตอนอยู่ dark mode จริง */
+  @media (prefers-color-scheme: dark) {
+    body { color: #ece9f5; background: #120f1e; }
+    a { color: #f3d38a; }
+    .card { background: #1b1730; border-color: #2c2647; }
+  }
 </style>
 </head>
 <body>
