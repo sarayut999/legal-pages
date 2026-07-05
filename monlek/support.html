@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monlek — Support</title>
+<style>
+  :root{
+    --bg:#0d0605; --card:rgba(227,185,76,0.06); --border:rgba(227,185,76,0.14);
+    --text:#f7e9c9; --text2:#c9a37e; --accent:#e3b94c;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Sukhumvit Set","Thonburi",sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(1200px 600px at 50% -10%,rgba(178,58,78,0.16),transparent);
+    min-height:100vh;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:64px 20px 80px}
+  .logo{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  .logo .mark{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,#e3b94c,#b23a4e);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;color:#1c0a06}
+  h1{font-size:34px;font-weight:800;letter-spacing:-0.02em}
+  .tag{color:var(--text2);font-size:16px;margin:6px 0 40px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:24px;margin-bottom:18px;backdrop-filter:blur(20px)}
+  h2{font-size:20px;font-weight:700;margin-bottom:10px}
+  p{color:var(--text);margin-bottom:10px}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .email{font-size:18px;font-weight:600}
+  ul{margin:8px 0 0 20px;color:var(--text2)}
+  li{margin-bottom:8px}
+  .foot{color:var(--text2);font-size:13px;text-align:center;margin-top:40px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">
+    <div class="mark">M</div>
+    <div><h1>Monlek</h1></div>
+  </div>
+  <p class="tag">ทำนายฝัน · เลขเด็ด · ดวงประจำวัน — เพื่อความบันเทิงเท่านั้น</p>
+
+  <div class="card">
+    <h2>ติดต่อเรา</h2>
+    <p>มีคำถาม แจ้งบั๊ก หรืออยากเสนอฟีเจอร์ใหม่? อีเมลมาได้เลย เราอ่านทุกข้อความ</p>
+    <p class="email"><a href="mailto:dev.sarayut@gmail.com">dev.sarayut@gmail.com</a></p>
+  </div>
+
+  <div class="card">
+    <h2>คำถามที่พบบ่อย</h2>
+    <ul>
+      <li><strong>Monlek ทำนายแม่นจริงไหม?</strong> เพื่อความบันเทิงเท่านั้น ไม่การันตีผลถูกรางวัลหรือความแม่นยำใดๆ</li>
+      <li><strong>เกี่ยวข้องกับการพนันไหม?</strong> ไม่เกี่ยวข้อง — แอพไม่มีกลไกซื้อ/ขาย/รับพนันใดๆ ทั้งสิ้น</li>
+      <li><strong>ข้อมูลวันเกิดของฉันเก็บที่ไหน?</strong> เก็บในเครื่องของคุณเท่านั้น ไม่มีเซิร์ฟเวอร์ ไม่อัปโหลดไปที่ใด</li>
+      <li><strong>"ปิดโฆษณา" คืออะไร?</strong> จ่ายครั้งเดียว ไม่มีโฆษณาตลอดไป (ไม่ใช่ subscription)</li>
+      <li><strong>กู้คืนการซื้อยังไง?</strong> ตั้งค่า → ปิดโฆษณา → กู้คืนการซื้อ</li>
+    </ul>
+  </div>
+
+  <p class="foot">© 2026 Sarayut · <a href="privacy-policy.html">Privacy Policy</a></p>
+</div>
+</body>
+</html>
