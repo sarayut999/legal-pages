@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liftly — Support</title>
+<style>
+  :root{
+    --bg:#070a08; --card:rgba(182,255,58,0.06); --border:rgba(182,255,58,0.16);
+    --text:#eafff0; --text2:#8ba596; --accent:#b6ff3a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Sukhumvit Set","Thonburi",sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(1200px 600px at 50% -10%,rgba(52,211,153,0.14),transparent);
+    min-height:100vh;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:64px 20px 80px}
+  .logo{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  .logo .mark{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,#b6ff3a,#34d399);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;color:#06140a}
+  h1{font-size:34px;font-weight:800;letter-spacing:-0.02em}
+  .tag{color:var(--text2);font-size:16px;margin:6px 0 40px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:24px;margin-bottom:18px;backdrop-filter:blur(20px)}
+  h2{font-size:20px;font-weight:700;margin-bottom:10px}
+  p{color:var(--text);margin-bottom:10px}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .email{font-size:18px;font-weight:600}
+  ul{margin:8px 0 0 20px;color:var(--text2)}
+  li{margin-bottom:8px}
+  .foot{color:var(--text2);font-size:13px;text-align:center;margin-top:40px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">
+    <div class="mark">L</div>
+    <div><h1>Liftly</h1></div>
+  </div>
+  <p class="tag">Workout logger — set×rep×weight, rest timer, 873 exercises, offline</p>
+
+  <div class="card">
+    <h2>Contact us</h2>
+    <p>Questions, bug reports, or feature requests? Email us — we read every message.</p>
+    <p class="email"><a href="mailto:dev.sarayut@gmail.com">dev.sarayut@gmail.com</a></p>
+  </div>
+
+  <div class="card">
+    <h2>FAQ</h2>
+    <ul>
+      <li><strong>Do I need an account?</strong> No — Liftly works offline, no sign-up required.</li>
+      <li><strong>Where is my workout data stored?</strong> On your device only, in a local database. Nothing is uploaded anywhere.</li>
+      <li><strong>What happens if I delete the app?</strong> Your data is deleted with it — there's no cloud backup yet.</li>
+      <li><strong>What does "Liftly Pro" unlock?</strong> Unlimited routines, full history and graphs, next-weight suggestions, and PR cards — a one-time purchase, no subscription.</li>
+      <li><strong>How do I restore my purchase?</strong> Settings → Upgrade to Pro → Restore purchase.</li>
+      <li><strong>Can I change kg/lb or bar weight?</strong> Yes — Settings → Unit / Bar weight.</li>
+    </ul>
+  </div>
+
+  <p class="foot">© 2026 Sarayut · <a href="privacy-policy.html">Privacy Policy</a></p>
+</div>
+</body>
+</html>
